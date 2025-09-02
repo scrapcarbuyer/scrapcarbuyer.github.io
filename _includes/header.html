@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-logo" href="{{ "/" | relative_url }}">
+      <img src="/assets/images/logo.png" alt="Logo" width="120">
+    </a>
+
+    <nav class="site-nav">
+      <div class="trigger">
+        {% for path in site.pages %}
+          {% if path.title %}
+            <a class="page-link" href="{{ path.url | relative_url }}">{{ path.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
+</header>
