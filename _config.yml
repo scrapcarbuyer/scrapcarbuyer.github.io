@@ -1,3 +1,12 @@
-title: My Blog
-description: Simple blog on GitHub Pages
+title: '<img src="https://image2url.com/images/1756823672491-148e0820-71de-4d87-8db7-6e829e2954dd.png" alt="Logo" width="150">'
+description: 'Simple blog on GitHub Pages with a logo in the header'
 theme: minima
+
+# Optional: social links (can remove if not needed)
+author: Your Name
+email: youremail@example.com
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
